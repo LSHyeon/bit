@@ -87,6 +87,7 @@ public class mainClass {
 		by1 >>= 1;
 		System.out.println("by1 = " + by1);
 		// git test
+		// git test2
 		
 		
 	}
