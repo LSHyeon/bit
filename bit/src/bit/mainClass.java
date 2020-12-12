@@ -11,7 +11,7 @@ public class mainClass {
 		 	^	XOR
 		 	<<	left shift
 		 	>>	right shift
-		 	~	반전
+		 	~	諛���
 		 */
 		
 		int result;
@@ -19,7 +19,7 @@ public class mainClass {
 		// AND	1011 1100 -> B C
 		// 		            8421 8421
 		//		1100 1001 -> C 9
-		//		1000 1000 -> 8 8 (16진수)
+		//		1000 1000 -> 8 8 (16吏���)
 		
 		result = 0xBC & 0xC9;
 		System.out.println("result = " + result);
@@ -60,9 +60,9 @@ public class mainClass {
 		System.out.printf("%x \n",result);
 		
 		
-		// ~ 반전 0->1 1->0
+		// ~ 諛��� 0->1 1->0
 		byte by = ~0x55;	// 0101 0101
-							// 1010 1010 반전
+							// 1010 1010 諛���
 							// A	A
 		System.out.printf("%x \n",by);
 		
@@ -86,6 +86,8 @@ public class mainClass {
 		
 		by1 >>= 1;
 		System.out.println("by1 = " + by1);
+		// git test
+		
 		
 	}
 
